@@ -13,9 +13,12 @@ Turn the above into a Function and execute the Function to verify it works.
 """
 #<Resources>
 #https://docs.python.org/3/library/random.html
-#https://www.w3schools.com/python/module_random.asp
 #https://peps.python.org/pep-0008/
+#https://www.w3schools.com/python/module_random.asp
 #https://www.w3schools.com/python/ref_random_choice.asp
+#https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python
+#https://www.udemy.com/course/python-pcep/
+#https://aws.plainenglish.io/how-to-use-aws-cloud9-with-github-3136692fa44d
 
 import random
 import string
