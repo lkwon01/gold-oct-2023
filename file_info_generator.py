@@ -1,17 +1,11 @@
 '''
 This week you will again be documenting your projects in Medium from this point forward now that your projects contain more substance outside of basic Python.
 
-‌
-
 Scenario: Your company needs to learn about the files located on various machines. You have been asked to build a script that extracts information such as the name and size about the files in the current working directory and stores it in a list of dictionaries.
-
-
 
 Create a script to that generates a list of dictionaries about files in the working directory. Then print the list.
 
 Push your code to GitHub and include the link in your write up.
-
-‌‌
 
 '''
 # Import the os module for file and directory operations.
