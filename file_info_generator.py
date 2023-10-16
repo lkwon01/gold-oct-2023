@@ -1,14 +1,15 @@
 '''
 This week you will again be documenting your projects in Medium from this point forward now that your projects contain more substance outside of basic Python.
 
-Scenario: Your company needs to learn about the files located on various machines. You have been asked to build a script that extracts information such as the name and size about the files in the current working directory and stores it in a list of dictionaries.
+‌Scenario: Your company needs to learn about the files located on various machines. You have been asked to build a script that extracts information such as the name and size about the files in the current working directory and stores it in a list of dictionaries.
 
-Create a script to that generates a list of dictionaries about files in the working directory. Then print the list.
+Create a script that generates a list of dictionaries about files in the working directory. Then print the list.
 
 Push your code to GitHub and include the link in your write up.
+‌
 
 '''
-# Import the os module for file and directory operations.
+
 import os
 
 # Get the current working directory.
@@ -29,7 +30,7 @@ for file in files:
     if os.path.isfile(file_path):
         # Create a dictionary containing the file name and its size.
         file_info = {
-            "file_name": file,
+            "file_path": file_path,
             "file_size": os.path.getsize(file_path)
         }
         
@@ -37,6 +38,5 @@ for file in files:
         files_list.append(file_info)
 
 # Print the list of dictionaries containing file information.
-print(files_list)
-
-
+for file_info in files_list:
+    print(file_info)
