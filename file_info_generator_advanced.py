@@ -40,7 +40,9 @@ def get_directory_files_info(directory_path='.'):
     return files_info
 
 # Call the function without providing a directory path to use the default (current working directory).
+
 file_info_list = get_directory_files_info()
+
 
 # Print the list of dictionaries containing file information.
 for file_info in file_info_list:
