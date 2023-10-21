@@ -25,7 +25,7 @@ import os
 print('Welcome! Please enter the directory name. We will extract information such as the name and size about the files in the directory for you.')
 
 
-def get_directory_files_info(directory_path='.', recursive=True):
+def get_directory_files_info(directory_path):
     files_info = []
    
     # Use os.walk to recursively iterate over all files/directories in the specified directory.
